@@ -1,26 +1,7 @@
 {
-    "electrumxftc.trezarcoin.com": {
+    "ufo-e1.calcium.cloud": {
         "pruning": "-",
-        "s": "50002",
-        "t": "50001",
-        "version": "1.3"
-    },
-    "electrum.feathercoin.network": {
-        "pruning": "-",
-        "s": "50002",
-        "t": "50001",
-        "version": "1.3"
-    },
-    "electrumx-gb-1.feathercoin.network": {
-        "pruning": "-",
-        "s": "50002",
-        "t": "50001",
-        "version": "1.3"
-    },
-    "electrumx-gb-2.feathercoin.network": {
-        "pruning": "-",
-        "s": "50002",
-        "t": "50001",
-        "version": "1.3"
+        "s": "50001",
+        "version": "1.4"
     }
 }

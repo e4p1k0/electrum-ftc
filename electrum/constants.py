@@ -53,11 +53,11 @@ class AbstractNet:
 class BitcoinMainnet(AbstractNet):
 
     TESTNET = False
-    WIF_PREFIX = 0x8E
-    ADDRTYPE_P2PKH = 0x0E
-    ADDRTYPE_P2SH = 5
-    SEGWIT_HRP = "fc"
-    GENESIS = "12a765e31ffd4059bada1e25190f6e98c99d9714d334efa41a195a7e7e04bfe2"
+    WIF_PREFIX = 0x9B
+    ADDRTYPE_P2PKH = 27
+    ADDRTYPE_P2SH = 68
+    SEGWIT_HRP = "uf"
+    GENESIS = "ba1d39b4928ab03d813d952daf65fb7797fcf538a9c1b8274f4edc8557722d13"
     DEFAULT_PORTS = {'t': '50001', 's': '50002'}
     DEFAULT_SERVERS = read_json('servers.json', {})
     CHECKPOINTS = read_json('checkpoints.json', [])
